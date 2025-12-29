@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="This app lets arsenal fans see highlights from their favourite players">
+    	<meta name="keywords" content="arsenal, football, club, goals">
+
+		<title>Arsenal Goal Simulator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+    <h1 class="arsenalGoal">Arsenal FC<br>Goal Simulator</h1>
+
+    <div class="player-grid">
+
+        <!-- Buttons with player images -->
+
+         <button class="player-btn" data-video-id="AxHAN8CIKQQ" data-highlight-img="assets/Ian+Wright+Arsenal.png">
+            <div class="player-container">
+                <img src="assets/ian-wright-arsenal-50387.jpg.webp" alt="Ian Wright">
+                <span class="player-name">Ian Wright</span>
+            </div>
+        </button>
+
+        <button class="player-btn" data-video-id="IicmCu47pMo" data-highlight-img="assets/dennis-bergkamp-arsenal-49807.jpg.webp">
+            <div class="player-container">
+                <img src="assets/dennis-bergkamp-1418898867-4191.jpg" alt="Dennis Bergkamp">
+                <span class="player-name">Dennis Bergkamp</span>
+            </div>
+        </button>
+
+        <button class="player-btn" data-video-id="8iBMW1wThlU">
+            <div class="player-container">
+                <img src="assets/32d3f63602b369123e816e37746e3951.jpg" alt="Thierry Henry">
+                <span class="player-name">Thierry Henry</span>
+            </div>
+        </button>
+
+        <button class="player-btn" data-video-id="18ILpVJ_DVY">
+            <div class="player-container">
+                <img src="assets/Liam-Brady.webp" alt="Liam Brady">
+                <span class="player-name">Liam Brady</span>
+            </div>
+        </button>
+
+        <button class="player-btn" data-video-id="cOGVJiUjISw">
+            <div class="player-container">
+                <img src="assets/Community News Rocky 7 Rocastle.webp" alt="David Rocky Rocastle">
+                <span class="player-name">David Rocastle</span>
+            </div>
+        </button>
+
+        <!-- Add more buttons for players -->
+
+    </div>
+
+    <div class="video-container">
+        <!-- YouTube iframe for video -->
+        <iframe 
+            id="youtube-video" 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="player-highlight">
+        <!-- Image will be dynamically inserted here -->
+    </div>
+    
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
