@@ -24,7 +24,7 @@
 }
 
 body {
-  background: url('/Users/jackknott/Desktop/100Devs/Class Materials/class12-materials/arsenal-goal-simulator/assets/1265143.jpg') no-repeat center center fixed;
+  background: url('assets/1265143.jpg') no-repeat center center fixed;
   background-size: cover; /* Ensures the image fills the screen */
   color: white; /* Update text color for better visibility */
   font-family: Arial, sans-serif;
